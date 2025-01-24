@@ -30,9 +30,9 @@ pub fn return_value(number: i32) -> i32 {
     a + number
 }
 
-struct Struct {
-    e: i32,
-}
+// struct Struct {
+//     e: i32,
+// }
 
 /// **解构**
 pub fn deconstruction() {
@@ -50,11 +50,15 @@ pub fn deconstruction() {
     //
     // println!("{} {} {} {}", a, b, c, d,);
     // println!("{}", return_value(e));
+
+    let _n: i8 = i8::MAX;
+    let _v: i8 = i8::MIN;
+    print!("{}", _v + _n+1);
 }
 
-pub fn constant() -> (i32, i32) {
-    const MAX_X: i32 = 12;
-    const MAX_Y: i32 = 44;
-
-    (MAX_X, MAX_Y)
-}
+// pub fn constant() -> (i32, i32) {
+//     const MAX_X: i32 = 12;
+//     const MAX_Y: i32 = 44;
+//
+//     (MAX_X, MAX_Y)
+// }
